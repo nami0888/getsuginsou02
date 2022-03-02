@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Noto Serif JP', serif;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+img {
+    width: 100%;
+}
+
+h2{
+    font-size: 2.2rem;
+    text-align: center;
+    font-weight: lighter;
+    
+}
+
+
+/*=========== 
+ヘッダー
+ ===========*/
+
+
+header {
+    border: 1px solid #000;
+    background-image: url("../img/MV.jpg");
+    background-position: center;
+    background-size:cover;
+    height: 700px;
+    position: relative;
+
+}
+
+header .menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0px;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+header ul li {
+
+    padding: 0px 10px;
+}
+
+header .menu a {
+    color: #ffffff;
+}
+
+header h1 {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+}
+/*=========== 
+案内
+ ===========*/
+#about .about_grop {
+    writing-mode: vertical-rl;
+    margin: 0 auto;
+    padding: 120px 0px;
+}
+
+#main {
+    margin: 0 auto;
+    background-color: #0E1C29;
+    color: #ffffff;
+}
+#main .item {
+    display: flex;
+}
+#main .item img {
+    width: 600px;
+}
+
+#room {
+    margin: 0 auto;
+    padding: 0 170px;
+}
+#room  .room-image img{
+   width: 600px;
+   background-color: #0E1C29;
+
+}
+
+
+footer .footer_logo{
+    width: 123px;
+}
